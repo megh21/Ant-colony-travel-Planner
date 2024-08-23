@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35d08fa1264ea4ceedf501b67027dedf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35d08fa1264ea4ceedf501b67027dedf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35d08fa1264ea4ceedf501b67027dedf = L.map(
+                "map_35d08fa1264ea4ceedf501b67027dedf",
+                {
+                    center: [19.018622, 72.83186852514405],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8a1d465cf8658585421ce35f4beec8b2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8a1d465cf8658585421ce35f4beec8b2.addTo(map_35d08fa1264ea4ceedf501b67027dedf);
+        
+    
+            var marker_8d1ed3de9623a42473e05aaa483493c7 = L.marker(
+                [18.9354797, 72.8271741],
+                {}
+            ).addTo(map_35d08fa1264ea4ceedf501b67027dedf);
+        
+    
+            var icon_16b92067f8c2c1c9e0146889e2b1fa40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8d1ed3de9623a42473e05aaa483493c7.setIcon(icon_16b92067f8c2c1c9e0146889e2b1fa40);
+        
+    
+        var popup_1baf3e93e5873256316a5415abef29b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_658ea0ec5e42e0b751eafae70882a777 = $(`<div id="html_658ea0ec5e42e0b751eafae70882a777" style="width: 100.0%; height: 100.0%;">1. churchgate mumbai</div>`)[0];
+                popup_1baf3e93e5873256316a5415abef29b2.setContent(html_658ea0ec5e42e0b751eafae70882a777);
+            
+        
+
+        marker_8d1ed3de9623a42473e05aaa483493c7.bindPopup(popup_1baf3e93e5873256316a5415abef29b2)
+        ;
+
+        
+    
+    
+            var marker_3175ccd123c553a37b6761f484ce09d6 = L.marker(
+                [19.1026521, 72.82467917543212],
+                {}
+            ).addTo(map_35d08fa1264ea4ceedf501b67027dedf);
+        
+    
+            var icon_70a1a460b07fa53ca0b7bf0b37115f60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3175ccd123c553a37b6761f484ce09d6.setIcon(icon_70a1a460b07fa53ca0b7bf0b37115f60);
+        
+    
+        var popup_ebf209e9ff81d3c3d88ba2ce5e8271bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e6cc43e76eda46d2780caa9c3aab39f = $(`<div id="html_3e6cc43e76eda46d2780caa9c3aab39f" style="width: 100.0%; height: 100.0%;">2. juhu beach</div>`)[0];
+                popup_ebf209e9ff81d3c3d88ba2ce5e8271bf.setContent(html_3e6cc43e76eda46d2780caa9c3aab39f);
+            
+        
+
+        marker_3175ccd123c553a37b6761f484ce09d6.bindPopup(popup_ebf209e9ff81d3c3d88ba2ce5e8271bf)
+        ;
+
+        
+    
+    
+            var marker_a4812dbce4e3a2d2db63b13ef4ce1142 = L.marker(
+                [19.0177342, 72.8437523],
+                {}
+            ).addTo(map_35d08fa1264ea4ceedf501b67027dedf);
+        
+    
+            var icon_39a779f76a0027f512b985ea816ce34e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a4812dbce4e3a2d2db63b13ef4ce1142.setIcon(icon_39a779f76a0027f512b985ea816ce34e);
+        
+    
+        var popup_0325fcebc7e236bab55376022bd7e1be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13d91b021076c7104fa3d63f65f8c6b3 = $(`<div id="html_13d91b021076c7104fa3d63f65f8c6b3" style="width: 100.0%; height: 100.0%;">3. dadar railway station east</div>`)[0];
+                popup_0325fcebc7e236bab55376022bd7e1be.setContent(html_13d91b021076c7104fa3d63f65f8c6b3);
+            
+        
+
+        marker_a4812dbce4e3a2d2db63b13ef4ce1142.bindPopup(popup_0325fcebc7e236bab55376022bd7e1be)
+        ;
+
+        
+    
+    
+            var poly_line_291b4d61dcf86adfc50fded5b949f7ee = L.polyline(
+                [[18.9354797, 72.8271741], [19.1026521, 72.82467917543212], [19.0177342, 72.8437523], [18.9354797, 72.8271741]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_35d08fa1264ea4ceedf501b67027dedf);
+        
+</script>
+</html>

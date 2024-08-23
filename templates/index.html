@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Trip Planner</h1>
+        <div>
+            <textarea id="locations" placeholder="Enter locations, one per line"></textarea>
+            <button onclick="calculateRoute()">Calculate Route</button>
+        </div>
+        <div id="map" style="height: 500px;"></div>
+        <div id="result"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
